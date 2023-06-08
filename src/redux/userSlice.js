@@ -22,7 +22,7 @@ export const userSlice = createSlice({
     },
     logoutRedux: (state, action) => {
       state._id = " ";
-      state.firstName = " ";
+      state.first = " ";
       state.lastName = " ";
       state.email = " ";
       state.image = " ";
